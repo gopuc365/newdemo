@@ -15,5 +15,5 @@ jobs:
         - ruby/bundle-install
         - run:
             name: Running tests
-            command: bundler exec rake spec/models 
+            command: bundle exec rspec spec 
 
