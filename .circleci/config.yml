@@ -15,5 +15,5 @@ jobs:
         - ruby/bundle-install
         - run:
             name: Running tests
-            command: bundle exec rake 
+            command: bundle exec rake --tasks
 
